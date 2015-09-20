@@ -5,6 +5,10 @@
 # define USE_KBHIT
 #endif
 
+#ifdef __PACIFIC__
+# define USE_KBHIT
+#endif
+
 #ifdef USE_KBHIT
 # include <conio.h>
 #endif

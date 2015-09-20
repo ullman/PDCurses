@@ -30,8 +30,11 @@ RCSID("$Id: debug.c,v 1.7 2008/07/13 16:08:18 wmcbrine Exp $")
 **man-end****************************************************************/
 
 #include <string.h>
-#include <sys/types.h>
 #include <time.h>
+
+#ifndef __PACIFIC__
+#include <sys/types.h>
+#endif
 
 bool pdc_trace_on = FALSE;
 

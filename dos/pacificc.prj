@@ -1,0 +1,124 @@
+;Project file: PACIFICC.PRJ for Pacific C MS-DOS V7.51
+
+List: Object Files	Abs Auto
+Endlist:
+
+List: CPP Include Paths	Abs Auto
+Entry: ..
+Entry: $(INC)
+Endlist:
+
+List: CPP Pre-defined Symbols	Abs Auto
+Entry: -DDOS
+Entry: -D_HOSTED
+Entry: -Di8086
+Entry: -D__PACIFIC__
+Entry: -DHI_TECH_C
+Entry: -DSMALL_CODE
+Entry: -SP2,2,2,2,2,2,2
+Entry: -S1,2,2,4,4,8
+Entry: -DSMALL_DATA
+Entry: -DSMALL_MODEL
+Endlist:
+
+List: Source Files	Abs Auto
+Entry: ..\PDCURSES\ADDCH.C
+Entry: ..\PDCURSES\ADDCHSTR.C
+Entry: ..\PDCURSES\ADDSTR.C
+Entry: ..\PDCURSES\ATTR.C
+Entry: ..\PDCURSES\BEEP.C
+Entry: ..\PDCURSES\BKGD.C
+Entry: ..\PDCURSES\BORDER.C
+Entry: ..\PDCURSES\CLEAR.C
+Entry: ..\PDCURSES\COLOR.C
+Entry: ..\PDCURSES\DELCH.C
+Entry: ..\PDCURSES\DELETELN.C
+Entry: ..\PDCURSES\DEPREC.C
+Entry: ..\PDCURSES\GETCH.C
+Entry: ..\PDCURSES\GETSTR.C
+Entry: ..\PDCURSES\GETYX.C
+Entry: ..\PDCURSES\INCH.C
+Entry: ..\PDCURSES\INCHSTR.C
+Entry: ..\PDCURSES\INITSCR.C
+Entry: ..\PDCURSES\INOPTS.C
+Entry: ..\PDCURSES\INSCH.C
+Entry: ..\PDCURSES\INSSTR.C
+Entry: ..\PDCURSES\INSTR.C
+Entry: ..\PDCURSES\KERNEL.C
+Entry: ..\PDCURSES\KEYNAME.C
+Entry: ..\PDCURSES\MOUSE.C
+Entry: ..\PDCURSES\MOVE.C
+Entry: ..\PDCURSES\OUTOPTS.C
+Entry: ..\PDCURSES\OVERLAY.C
+Entry: ..\PDCURSES\PAD.C
+Entry: ..\PDCURSES\PANEL.C
+Entry: ..\PDCURSES\PRINTW.C
+Entry: ..\PDCURSES\REFRESH.C
+Entry: ..\PDCURSES\SCANW.C
+Entry: ..\PDCURSES\SCR_DUMP.C
+Entry: ..\PDCURSES\SCROLL.C
+Entry: ..\PDCURSES\SLK.C
+Entry: ..\PDCURSES\TERMATTR.C
+Entry: ..\PDCURSES\TERMINFO.C
+Entry: ..\PDCURSES\TOUCH.C
+Entry: ..\PDCURSES\UTIL.C
+Entry: ..\PDCURSES\WINDOW.C
+Entry: ..\PDCURSES\DEBUG.C
+Entry: ..\DOS\PDCCLIP.C
+Entry: ..\DOS\PDCDISP.C
+Entry: ..\DOS\PDCGETSC.C
+Entry: ..\DOS\PDCKBD.C
+Entry: ..\DOS\PDCSCRN.C
+Entry: ..\DOS\PDCSETSC.C
+Entry: ..\DOS\PDCUTIL.C
+Endlist:
+
+List: Libraries	Abs Auto
+Endlist:
+
+List: Linker options	Abs Auto
+Endlist:
+
+List: Objtohex options	Abs Auto
+Endlist:
+
+
+Int: OuputFormat: 1
+Int: Warnlevel: 0
+Int: IdLength: 31
+Int: DebugBaud: 0
+Int: ComPort: 0
+Int: GlobOptLevel: 9
+Int: Rom_addr: 1015808
+Int: Init_addr: 1048560
+Int: Bss_addr: 256
+Int: Bss_size: 32512
+Int: Nvram_addr: 32768
+Int: Modelno: 0
+Int: Chiptype: 0
+Int: Heapsize: 0
+Int: Falign: 0
+Int: Jalign: 0
+Int: Lalign: 0
+
+Bool: Globopt: 1
+Bool: Postopt: 0
+Bool: Assemopt: 1
+Bool: Symbolic_debug: 0
+Bool: Nolocal: 0
+Bool: Usefloat: 0
+Bool: Autoload: 0
+Bool: Cppasm: 0
+Bool: Genlist: 0
+Bool: GenSrclist: 0
+Bool: Gotadrs: 0
+Bool: Multirom: 0
+Bool: Stopwarn: 0
+Bool: Hardfloat: 0
+Bool: Wildcards: 0
+Bool: I80188eb: 0
+Bool: V25: 0
+
+String: Outfile:PDCURSES.LIB
+String: Mapfile:
+String: Symfile:
